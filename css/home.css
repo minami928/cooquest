@@ -1,0 +1,73 @@
+body{
+    background: #F5F4D1;
+    font-family: "Mplus 1p";
+}
+header{
+    background: #EEDD74;
+    height: 45px;
+}
+
+.easy{
+    text-align: center;
+}
+
+.katagaki{
+    text-align: center;
+    position: relative;
+    z-index: 4;
+    margin-top: 10px;
+}
+
+.katagaki::before{
+    content: "";
+    width: 60%;
+    height: 17px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #DD6847;
+    left: 0;
+    top: 0;
+    margin-left:90px ;
+    margin-top: 40px;
+    z-index: 3;
+}
+
+.lank>p{
+    top: 0;
+    margin-left:290px ;
+    margin-top: 30px;
+}
+
+.lank span{
+    font-size: 30px;
+}
+
+.boy{
+    padding-left: 110px;
+
+    position: relative;
+    z-index: 2;
+}
+
+.dai{
+    position: absolute;
+    top: 0;
+    padding-left: 60px;
+    padding-top: 630px;
+    z-index: 0;
+}
+
+.menu{
+    position: absolute;
+    z-index: 1;    
+    
+}
+
+.menu a:not(:first-child){
+    padding-left: 5px;
+}
+
+.cook{
+    text-align: center;
+    padding-top: 100px;
+}

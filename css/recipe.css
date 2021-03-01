@@ -1,0 +1,107 @@
+body{
+    font-family: "Mplus 1p";
+    width: 100%;
+    height: 100%;
+    background: #F7F3DC;
+}
+
+header{
+    background: #EEDD74;
+    height: 45px;
+}
+
+.backBtn{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.board{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+}
+
+.menuImg{
+    padding-top: 105px;
+    padding-left: 35px;
+}
+
+.menuTxt{
+    font-size: 30px;
+    font-family: "Mplus 1p";
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cook{
+    padding-top: 130px;
+    padding-left: 90px;
+}
+
+.title{
+    color: #DD6847;
+    padding-top: 190px;
+    padding-left: 30px;
+}
+
+.title02{
+    color: #DD6847;
+    padding-top: 115px;
+    padding-left: 30px;
+}
+
+.zairyouWrap{
+    margin-left: 58px;
+    margin-top: 40px;
+}
+
+.zairyou{
+    width: 320px;
+    height: 70px;
+    display: flex;
+}
+
+.zairyou li{
+    list-style: none;
+    color: #717171;
+}
+
+.zairyou li:last-child{
+    padding-left: 25px;
+}
+
+.recipeWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.recipeWrap p img{
+    padding-left: 20px;
+}
+
+.recipeTxt{
+    color: #717171;
+    font-family: "Mplus 1p";
+    font-size: 17px;
+}
+
+.kannsei{
+    padding-top: 112px;
+    text-align: center;
+}
+
+.delicious{
+    font-family: "Mplus 1p";
+    font-size: 20px;
+    color: #717171;
+    text-align: center;
+    padding-top: 105px;
+}
+
+.tap{
+    padding-top: 45px;
+    text-align: center;
+    padding-bottom: 210px;
+}

@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 2000px;
+}
+
+.background{
+    width: 414px;
+    height: 45px;
+    background: #EEDD74;
+
+}
+
+.btn_background{
+    position: relative;
+}
+
+.back{
+    width: 100%;
+    height: 600px;
+    background: #F5F4D1;
+
+}
+#sticky{
+    position: -webkit-sticky;
+
+}
+.chara{
+    position: relative;
+    padding-top: 100px;
+    margin-left: 110px;
+    z-index: 1;
+}
+
+.a{
+    position: absolute;
+    top: 0;
+    padding-top: 400px;
+    padding-left: 90px;
+    z-index: 0;
+}

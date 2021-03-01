@@ -1,0 +1,59 @@
+body{
+    background: #F5F4D1;
+    font-family: "Mplus 1p";
+}
+header{
+    background: #EEDD74;
+    height: 45px;
+}
+
+.easy{
+    text-align: center;
+    position: relative;
+}
+.back{
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+}
+
+.load{
+    position: relative;
+}
+
+.math{
+    position: absolute;
+    top: 0;
+    margin-left: 30px;
+    margin-top: 180px;
+}
+.math1{
+    position: absolute;
+    top: 0;
+    margin-left: 150px;
+    margin-top: 280px;
+}
+.math2{
+    position: absolute;
+    top: 0;
+    margin-left: 255px;
+    margin-top: 440px;
+}
+.math3{
+    position: absolute;
+    top: 0;
+    margin-left: 150px;
+    margin-top: 530px;
+}
+.math4{
+    position: absolute;
+    top: 0;
+    margin-left: 80px;
+    margin-top: 610px;
+}
+.math5{
+    position: absolute;
+    top: 0;
+    margin-left: 100px;
+    margin-top: 720px;
+}

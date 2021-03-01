@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/loading1.css">
+    <link rel="stylesheet" href="css/ress.css">
+    <title>ローディング1</title>
+</head>
+<body>
+    <script>onLoad=setTimeout("location.href='name.html'",10000)</script>
+
+   <header></header> 
+   <main>
+
+    <div id="contentWrap">
+        <div id="content">
+            <div id="sliderWrap">
+                <ul id="slider">
+                    <li><img src="img/aaa.png" alt="" width="300px"></li>
+                    <li><img src="img/bbb.png" alt="" width="300px"></li>
+                    <li><img src="img/ccc.png" alt="" width="300px"></li>
+                    
+                </ul>
+        
+                <figure id="next"><img src="img/next.png" alt=""></figure>
+                <figure id="prev"><img src="img/back.png" alt=""></figure>
+        
+            </div>
+        </div>
+    </div>
+    
+    <svg class=“circleSvg” xmlns=“http://www.w3.org/2000/svg” width=“145” height=“17" viewBox=“0 0 145 17” style="margin-left:170px;">
+        <defs>
+        </defs>
+            <circle class="circle" data-name="楕円形 1" cx="8.125" cy="8.906" r="8" style="fill:white ;border:#A88263 solid 1px;"/>
+            <circle class="circle" data-name="楕円形 1" cx="40.125" cy="8.906" r="8" style="fill:white; border:#A88263 solid 1px;" />
+            <circle class="circle" data-name="楕円形 1" cx="72.125" cy="8.906" r="8" style="fill:white; border:#A88263 solid 1px;"/>
+    
+    </svg>
+
+
+   </main>
+
+   <div id="line">
+       <p>データをダウンロードしています。</p>
+       <div id="aaa">
+        <span class="loding"></span>
+       </div>
+   </div>
+
+<script src="js/loading.js"></script>
+</body>
+</html>

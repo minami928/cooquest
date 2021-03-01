@@ -1,0 +1,120 @@
+body{
+    font-family: "Mplus 1p";
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background: #EEDD74;
+    height: 45px;
+}
+
+.btn_background{
+    background: #F5F4D1;
+    width: 100%;
+    height: 454px;
+}
+
+.center{
+    text-align: center;
+}
+
+.chara{
+    position: relative;
+    margin-left: 115px;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+.shadow{
+    position: relative;
+    margin-top: -65px;
+    z-index: 0;
+}
+
+.ok{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #DD6847;
+    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom: 75px;
+    left: 330px;
+}
+
+.ok a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.title{
+    width: 100%;
+    height: 33px;
+    background: #A88263;
+    color: #ffffff;
+    margin-top: -55px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.character{
+    width: 100%;
+    height: 670px;
+    background: rgba(173, 134 , 102, 0.5);
+    overflow-y: scroll;
+}
+
+.character ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 414px;
+}
+
+.character li{
+    list-style: none;
+}
+
+.character ul .chara01{
+    margin-top: 35px;
+    padding-left: 35px;
+}
+
+.character ul .chara02{
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.character ul .chara03{
+    padding-left: 35px;
+    margin-top: 25px;
+}
+
+.character ul .chara04{
+    margin-top: 25px;
+    margin-left: -9px;
+}
+
+.character ul .chara05{
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.character ul .chara06{
+    padding-left: 35px;
+    margin-top: 25px;
+}
+
+.character ul .chara07{
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.character ul .chara08{
+    margin-top: 25px;
+    padding-left: 40px;
+    margin-bottom: 45px;
+}
+

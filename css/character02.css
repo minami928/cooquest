@@ -1,0 +1,45 @@
+/* 追記分 */
+
+.character ul .chara02_Small{
+    padding-left: 22px;
+}
+
+.character02{
+    position: relative;
+    padding-left: 100px;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+.character03{
+    position: relative;
+    padding-left: 105px;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+.character04{
+    position: relative;
+    padding-left: 70px;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+.character05{
+    position: relative;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.character06{
+    position: relative;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.character07{
+    position: relative;
+    padding-left: 10px;
+    z-index: 1;
+    margin-top: -26px;
+}

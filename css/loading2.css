@@ -1,0 +1,136 @@
+body{
+    background: #F5F4D1;
+}
+header{
+    background: #EEDD74;
+    height: 45px;
+}
+
+.back{
+    padding-top: 200px;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.next{
+    padding-left: 370px;
+    padding-top: 200px;
+    z-index: 1;
+    position: absolute;
+}
+
+.daimei{
+    padding-top: 100px;
+    text-align: center;
+    display: inline-block;
+    background: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+    position: absolute;
+    top: 0;
+    width: 310px;
+    z-index: 2;
+
+}
+
+
+
+.game{
+    margin-top: 80px;
+    background: #CEBA99;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 30px;
+    position: relative;
+    z-index: 0;
+}
+
+.game>h3{
+    text-align: center;
+}
+
+.game>img{
+    margin-left: 15px;
+    padding-top: 30px;
+}
+
+h3{
+    color: white;
+    padding-top: 30px;
+}
+
+.setumei{
+    text-align: center;
+    color: white;
+}
+
+.circle{
+    display: flex;
+    padding-left: 160px;
+    margin: 30px 0;
+}
+.circle .a{
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: solid 1px #A88263;
+}
+.circle .b{
+    background: #DD6847;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: solid 1px #A88263;
+    margin-left: 10px;
+}
+.circle .c{
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: solid 1px #A88263;
+    margin-left: 10px;
+}
+
+
+#line{
+    width: 350px;
+    height: 140px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#line>p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#aaa{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background: red;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.loding {
+    width:100%;
+    height:20px;
+    background:orange;
+    position:absolute;
+    border-radius: 10px;
+    -moz-animation:aaa 10s linear;
+}
+
+@-moz-keyframes aaa {
+    0%  { width:0px;}
+    100%{ width:100%;} 
+}
+

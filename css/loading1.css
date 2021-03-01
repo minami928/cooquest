@@ -1,0 +1,109 @@
+body{
+    background: #F5F4D1;
+}
+header{
+    background: #EEDD74;
+    height: 45px;
+}
+
+.back{
+    padding-top: 200px;
+    z-index: 1;
+    position: absolute;
+
+}
+
+#sliderWrap {
+    position: relative;
+    top: 0; bottom: 0;
+    width: 80%;
+    /* background: #C1D1D5; */
+    margin: auto;
+    padding-top: 50px;
+}
+#slider {
+/*
+    max-height: 600px;
+    overflow: hidden;
+*/
+    /* background: #fff; */
+    margin: 0 auto;
+}
+#slider li img {
+    width: 100%;
+}
+#slider .show {
+    transition: ease-in-out 1s;
+    opacity: 1;
+}
+/* slider controller */
+#next,
+#prev {
+    position: absolute;
+    cursor: pointer;
+
+    transition: opacity 0.4s ease;
+}
+
+#next {
+    top: 55%;
+    right: 2%;
+
+}
+#prev {
+    top: 55%;
+    
+}
+/* kadai09 追記分 */
+
+#slider li{
+    display:none;
+}
+#slider li:first-child{
+    display: block;
+}
+.circle_all {
+    text-align:中央;
+  }
+  
+  .circleSvg {
+    margin:20px 0;
+  }
+
+
+#line{
+    width: 350px;
+    height: 140px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#line>p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#aaa{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background: red;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.loding {
+    width:100%;
+    height:20px;
+    background:orange;
+    position:absolute;
+    border-radius: 10px;
+    -moz-animation:aaa 10s linear;
+}
+
+@-moz-keyframes aaa {
+    0%  { width:0px;}
+    100%{ width:100%;} 
+}
+

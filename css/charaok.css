@@ -1,0 +1,91 @@
+body{
+    background: #F5F4D1;
+    font-family: "Mplus 1p";
+}
+header{
+    background: #EEDD74;
+    height: 45px;
+}
+.daimei{
+    background:#A88263;
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.daimei>h2{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+
+.box{
+    background:#A88263 ;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.name{
+    color: white;
+    padding-left: 20px;
+}
+
+.name h3:first-child{
+    padding-top: 20px;
+}
+.a{
+    padding-top: 30px;
+}
+
+.image{
+    background: white;
+    width: 300px;
+}
+
+.image>img{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.btn{
+    display: flex;
+    padding-bottom:30px 
+
+}
+
+.btn-active{
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    background: #EEDD74;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 5px rgba(51, 51, 51,.3);
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-top: 30px;
+;
+    font-size: 30px;
+}
+.btn-active:active{
+    border-bottom:none;
+}
+.btn-active1{
+    display: inline-block;
+    padding: 0px 50px;
+    text-decoration: none;
+    background: #DD6847;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 5px rgba(51, 51, 51,.3);
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "Mplus 1p";
+}
+.btn-active:active{
+    border-bottom:none;
+}

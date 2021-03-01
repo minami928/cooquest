@@ -1,0 +1,29 @@
+body{
+    background: #F5F4D1;
+}
+header{
+    background: #EEDD74;
+    height: 45px;
+}
+
+
+
+.dog{
+    padding-top: 60px;
+    position: relative;
+    z-index: 0;
+
+    
+}
+
+
+#btn{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    padding-top: 550px;
+    padding-left: 50px;
+    
+}   
+  
+
